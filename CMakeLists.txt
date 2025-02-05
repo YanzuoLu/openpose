@@ -343,7 +343,7 @@ if (APPLE)
   endif ()
 endif (APPLE)
 
-set(DOWNLOAD_SERVER "http://vcl.snu.ac.kr/OpenPose/" CACHE STRING "Server from which the models and 3rdparty libraries will be downloaded from.")
+set(DOWNLOAD_SERVER "https://huggingface.co/camenduru/openpose/resolve/main/" CACHE STRING "Server from which the models and 3rdparty libraries will be downloaded from.")
 mark_as_advanced(DOWNLOAD_SERVER)
 
 ### FIND REQUIRED PACKAGES
